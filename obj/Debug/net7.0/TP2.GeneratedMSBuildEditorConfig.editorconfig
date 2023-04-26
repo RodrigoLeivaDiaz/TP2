@@ -1,0 +1,125 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TP2
+build_property.RootNamespace = TP2
+build_property.ProjectDir = C:\Users\Puma\Desktop\Materias 2022\Materias 2023\HerramientasDeProgramacion\TP2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Puma\Desktop\Materias 2022\Materias 2023\HerramientasDeProgramacion\TP2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Direccion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Direccion/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Direccion/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Direccion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Direccion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWNjaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Heladeria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRlcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Heladeria/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRlcmlhXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Heladeria/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRlcmlhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Heladeria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRlcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Heladeria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRlcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Helado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Helado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Helado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Helado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Helado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsYWRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Marca/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Marca/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Marca/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Marca/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Marca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFyY2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Puma/Desktop/Materias 2022/Materias 2023/HerramientasDeProgramacion/TP2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7d67vd67a4

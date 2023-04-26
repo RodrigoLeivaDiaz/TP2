@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using TP2.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<MvcHeladeriaContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("MvcHeladeriaContext") ?? throw new InvalidOperationException("Connection string 'MvcHeladeriaContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
