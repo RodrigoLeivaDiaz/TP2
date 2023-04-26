@@ -25,11 +25,11 @@ namespace TP2.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
-        modelBuilder.Entity<Heladeria>()
-        .HasOne(p => p.Direccion)
-        .WithOne(p => p.Heladeria )
-        .HasForeignKey(d => d.DireccionId);
-
+        modelBuilder.Entity<Direccion>()
+        .HasOne(p => p.Heladeria)
+        .WithOne(p => p.Direccion )
+        .HasForeignKey(p => p.DireccionId);
+        .IsRequired();
         }
     }
 }
