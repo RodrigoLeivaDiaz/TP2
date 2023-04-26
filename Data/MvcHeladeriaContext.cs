@@ -29,7 +29,7 @@ namespace TP2.Data
         .HasOne(p => p.Heladeria)
         .WithOne(p => p.Direccion )
         .HasForeignKey(p => p.DireccionId);
-        .IsRequired();
+
         }
     }
 }
