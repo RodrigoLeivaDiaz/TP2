@@ -28,8 +28,13 @@ namespace TP2.Data
         modelBuilder.Entity<Direccion>()
         .HasOne(p => p.Heladeria)
         .WithOne(p => p.Direccion )
-        .HasForeignKey(p => p.DireccionId);
+        .HasForeignKey<Heladeria>(p => p.DireccionId);
 
-        }
+        modelBuilder.Entity<Marca>()
+        .HasMany(f => f.Heladerias)
+        .WithOne(f => f.Marca )
+        .HasForeignKey(f => f.MarcaId);
+
+        }       
     }
 }

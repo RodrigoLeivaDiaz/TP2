@@ -22,7 +22,7 @@ namespace TP2.Controllers
         // GET: Heladeria
         public async Task<IActionResult> Index()
         {
-            var mvcHeladeriaContext = _context.Heladeria.Include(h => h.Direccion);
+            var mvcHeladeriaContext = _context.Heladeria.Include(h => h.Direccion).Include(h => h.Marca);
             return View(await mvcHeladeriaContext.ToListAsync());
         }
 
@@ -36,6 +36,7 @@ namespace TP2.Controllers
 
             var heladeria = await _context.Heladeria
                 .Include(h => h.Direccion)
+                .Include(h => h.Marca)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (heladeria == null)
             {
@@ -49,6 +50,7 @@ namespace TP2.Controllers
         public IActionResult Create()
         {
             ViewData["DireccionId"] = new SelectList(_context.Direccion, "Id", "Id");
+            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id");
             return View();
         }
 
@@ -57,7 +59,7 @@ namespace TP2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Marca,DireccionId")] Heladeria heladeria)
+        public async Task<IActionResult> Create([Bind("Id,Nombre,DireccionId,MarcaId")] Heladeria heladeria)
         {
             if (ModelState.IsValid)
             {
@@ -66,6 +68,7 @@ namespace TP2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["DireccionId"] = new SelectList(_context.Direccion, "Id", "Id", heladeria.DireccionId);
+            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id", heladeria.MarcaId);
             return View(heladeria);
         }
 
@@ -83,6 +86,7 @@ namespace TP2.Controllers
                 return NotFound();
             }
             ViewData["DireccionId"] = new SelectList(_context.Direccion, "Id", "Id", heladeria.DireccionId);
+            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id", heladeria.MarcaId);
             return View(heladeria);
         }
 
@@ -91,7 +95,7 @@ namespace TP2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Marca,DireccionId")] Heladeria heladeria)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,DireccionId,MarcaId")] Heladeria heladeria)
         {
             if (id != heladeria.Id)
             {
@@ -119,6 +123,7 @@ namespace TP2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["DireccionId"] = new SelectList(_context.Direccion, "Id", "Id", heladeria.DireccionId);
+            ViewData["MarcaId"] = new SelectList(_context.Marca, "Id", "Id", heladeria.MarcaId);
             return View(heladeria);
         }
 
@@ -132,6 +137,7 @@ namespace TP2.Controllers
 
             var heladeria = await _context.Heladeria
                 .Include(h => h.Direccion)
+                .Include(h => h.Marca)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (heladeria == null)
             {
