@@ -14,4 +14,6 @@ public class Heladeria
 
       public virtual Marca Marca { get; set; }
 
+      public List<Helado> Helados { get; } = new();
+
 }

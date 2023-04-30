@@ -7,5 +7,6 @@ public class Helado
     public string? Nombre { get; set; }
 
     public string? Sabor { get; set; }
+     public List<Heladeria> Heladerias { get; } = new();
 
 }

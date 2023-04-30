@@ -35,6 +35,10 @@ namespace TP2.Data
         .WithOne(f => f.Marca )
         .HasForeignKey(f => f.MarcaId);
 
+        modelBuilder.Entity<Heladeria>()
+        .HasMany(e => e.Helados)
+        .WithMany(e => e.Heladerias);
+
         }       
     }
 }
